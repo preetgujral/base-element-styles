@@ -1,0 +1,83 @@
+/* Steps
+1. Choose a color scheme
+primary #9D764C - light brown
+secondary #2B1A0A - dark brown
+tertiary - #A5A09A - grey
+primary lighter - #BE9C77
+secondary lighter - #7F6446
+2. Choose a font
+  font-family: 'Open Sans', sans-serif;
+3. List out all of the elements used in your html
+4. What patterns exist?
+
+nav
+a
+h1
+h2
+section
+table
+thead
+tr
+th
+id
+class='content'
+p
+h4
+h5
+address
+strong
+footer
+small
+*/
+
+/* */
+
+/*set all text to open sans font*/
+a, address, h1, h2, h4, h5,table, tr, th, td, p, ul, ol, li {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+}
+
+/*set font sizes*/
+h1 {font-size:26px}
+h2 {font-size:24px}
+h4 {font-size:22px}
+h5 {font-size:20px}
+a, address, table, tr, th, td, p {font-size: 16px}
+
+
+/*Fix nav to top of page  */
+nav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color:#BE9C77;
+
+}
+
+header { padding-top: 50px;
+  text-align: center }
+
+
+/*Table borders*/
+table, th, td, tr {
+  border: 2px solid black;
+  border-spacing: 15px;
+  width: 100%;
+  height: 50px;
+  background-color: #BE9C77
+}
+
+body {
+  width: 100%;
+  background-color:#9D764C;
+
+}
+
+/*lists*/
+ol {list-style-type: lower-alpha;}
+ul {list-style-type: square;}
+
