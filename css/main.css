@@ -1,83 +1,143 @@
-/* Steps
-1. Choose a color scheme
-primary #9D764C - light brown
-secondary #2B1A0A - dark brown
-tertiary - #A5A09A - grey
-primary lighter - #BE9C77
-secondary lighter - #7F6446
-2. Choose a font
-  font-family: 'Open Sans', sans-serif;
-3. List out all of the elements used in your html
-4. What patterns exist?
-
-nav
-a
-h1
-h2
+/********
+Main elements
+main header aside footer
 section
-table
-thead
-tr
-th
-id
-class='content'
-p
-h4
-h5
-address
-strong
-footer
-small
-*/
+address table
+thead tbody
+td tr td
+*********/
 
-/* */
+/******
+1. Color Scheme
 
-/*set all text to open sans font*/
-a, address, h1, h2, h4, h5,table, tr, th, td, p, ul, ol, li {
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 3px;
+primary #9D764C - light brown
+primary lighter - #BE9C77
+secondary #2B1A0A - dark brown
+secondary lighter - #7F6446
+tertiary - #A5A09A - grey
+**********/
+
+/******
+2. Style Reset
+********/
+
+/******
+3. Typography
+********/
+body {
+  background-color:#CBC9AD ;
+  color:#454545;
+  font: normal 300 16px/24px 'Open Sans', sans-serif;
+}
+h1, h2 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 30px;
+  line-height: 45px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+h3, h4 {
+  font-weight: 500;
+}
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 27px;
+}
+strong {
+  font-weight: 500;
+}
+a:hover {
+  color: ;
+}
+a {
+  color: #5E8860;
+}
+ol {
+  list-style-type: lower-alpha;
+}
+ul {
+  list-style-type: square;
+}
+
+/********
+4. Layout
+*********/
+
+* {
+    margin-top: 3px;
   margin-right: 3px;
   margin-bottom: 3px;
   margin-left: 3px;
 }
 
-/*set font sizes*/
-h1 {font-size:26px}
-h2 {font-size:24px}
-h4 {font-size:22px}
-h5 {font-size:20px}
-a, address, table, tr, th, td, p {font-size: 16px}
+/*Fix header to top of page  */
 
-
-/*Fix nav to top of page  */
-nav {
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  background-color:#BE9C77;
+header {
+  height: 100px;
+  background-color: #A9B18F;
 
 }
 
-header { padding-top: 50px;
-  text-align: center }
+aside {
+  width: 200;
+  float:left;
+  background-color:#A9B18F;
+
+}
+
+main {
+  margin-left:200;
+}
+
+footer {
+  background-color:#A9B18F;
+}
+
+
+
+/*header {
+  position:absolute;
+  left:0; right:0;
+  text-align: center;
+  height: 100px;
+  background-color:#454545;
+
+}
+
+aside {
+  position:absolute;
+  left:0; top:100; bottom:0;
+  width: 200;
+  background-color:#6D5959;
+
+}
+
+main {
+  position:absolute;
+  left:200; top:100 right:0; bottom:0;
+  background-color:#CBD0B9;
+}
+
+footer {
+  background-color:#4F4F54;
+}*/
+
+
 
 
 /*Table borders*/
 table, th, td, tr {
   border: 2px solid black;
   border-spacing: 15px;
-  width: 100%;
+  column-width: 100px;
   height: 50px;
-  background-color: #BE9C77
+  background-color:#F7B2AD
 }
-
-body {
-  width: 100%;
-  background-color:#9D764C;
-
-}
-
-/*lists*/
-ol {list-style-type: lower-alpha;}
-ul {list-style-type: square;}
-
