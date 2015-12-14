@@ -1,0 +1,19 @@
+{
+  "name": "base-element-styles",
+  "version": "1.0.0",
+  "description": "reset styles and build out element level stylesheet for upcoming projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preetgujral/base-element-styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preetgujral/base-element-styles/issues"
+  },
+  "homepage": "https://github.com/preetgujral/base-element-styles#readme"
+}
